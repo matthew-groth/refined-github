@@ -234,18 +234,18 @@
 	color: #df3e3e;
 }
 
-/* hide news items when people:
-pushed to a branch
-deleted a branch
-added someone as a collaborator
-forked a repo
-*/
-.news .alert.push,
-.news .alert.delete.simple,
-.news .member_add,
-.news .alert.fork.simple {
-	display: none !important;
-}
+// /* hide news items when people:
+// pushed to a branch
+// deleted a branch
+// added someone as a collaborator
+// forked a repo
+// */
+// .news .alert.push,
+// .news .alert.delete.simple,
+// .news .member_add,
+// .news .alert.fork.simple {
+// 	display: none !important;
+// }
 
 /* ensure the news feed is still shown once the items above have been hidden */
 .news {
